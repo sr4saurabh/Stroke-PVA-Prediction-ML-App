@@ -1,7 +1,8 @@
 import streamlit as st
 import pickle
 import numpy as np
-
+def random_fn():
+    val = 1
 
 model=pickle.load(open('model_pickle.pkl','rb'))
 
